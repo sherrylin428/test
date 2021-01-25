@@ -1,0 +1,7 @@
+.header{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600 bold;
+    color: blue;
+    -webkit-text-stroke: 0.5px white;
+}

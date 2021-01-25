@@ -1,0 +1,49 @@
+.Container{
+    background-color: #c7c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 250px;
+    margin-right: 370px;
+}
+.WeatherCard{
+    position: relative;
+    box-shadow: 0 1px 3px 0 #999999;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    border-radius: 0.3em;
+    margin: 3px auto;
+    padding: 10px 15px;
+}
+.Location {/*地點city*/
+    font-size: 27px;
+    color: #212121;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.Description {/*氣候狀況*/
+  font-size: 25px;
+  color: #828282;
+  margin-bottom: 10px;
+}
+
+.CurrentWeather {/*包溫度及圖片*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Temperature {/*溫度*/
+  color: #757575;
+  font-size: 30px;
+  display: flex;
+}
+
+.weatherimg img{
+    min-width: 75px;
+    min-height: 75px;
+}

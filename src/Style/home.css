@@ -1,0 +1,9 @@
+
+body {
+  margin:0;
+  background-image: url('./image/background.jpeg');
+  background-attachment: fixed;
+  background-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
